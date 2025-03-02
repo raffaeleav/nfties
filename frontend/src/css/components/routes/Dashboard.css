@@ -1,0 +1,129 @@
+.content h2 {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.content .subtitle {
+    font-size: 0.9rem;
+}
+
+form {
+    max-width: 30rem;
+    margin: 1rem auto;
+    padding: 0rem;
+    border-radius: 0.4rem;
+    font-size: 0.9rem;
+}
+  
+form div {
+    margin-bottom: 1.2rem;
+}
+  
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+  
+form input[type="text"],
+form input[type="file"],
+form textarea {
+    width: 100%;
+    padding: 0.6rem;
+    font-size: 0.8rem;
+    color: white;
+    border: 0.09rem solid #333333;
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+  
+form textarea {
+    height: 5rem;
+    resize: none;
+}
+  
+form img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+  
+form button {
+    width: 100%;
+    padding: 0.7rem 0.8rem;
+    font-size: 0.9rem;
+    color: black;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="text"]::placeholder,
+form input[type="file"]::placeholder,
+form textarea::placeholder {
+    color: white;
+}
+
+form input[type="text"]:focus,
+form input[type="file"]:focus,
+form textarea:focus {
+    border-color: #ffffff;
+    color: white;
+}
+
+form input[type="text"]:hover::placeholder,
+form input[type="file"]:hover::placeholder,
+form textarea:hover::placeholder {
+    color: darkgrey;
+}
+
+form input[type="text"]:focus::placeholder,
+form input[type="file"]:focus::placeholder,
+form textarea:focus::placeholder {
+    color: transparent;
+}
+  
+form button:disabled {
+    background-color: darkgrey;
+    cursor: not-allowed;
+}
+  
+form button:hover:not(:disabled) {
+    background-color: darkgrey;
+}
+
+.image-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-div input[type="file"] {
+    display: none;
+}
+
+.image-div label {
+    width: max;
+    padding: 0.7rem 0.8rem;
+    font-size: 0.9rem;
+    color: black;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.image-div label:hover {
+    background-color: darkgrey;
+}
+
+.image-preview {
+    border: 0.09rem solid #333333;
+    border-radius: 0.4rem;
+    padding: 0.6rem;
+}

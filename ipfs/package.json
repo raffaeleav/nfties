@@ -1,0 +1,24 @@
+{
+  "name": "ipfs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@helia/json": "^4.0.2",
+    "@helia/unixfs": "^4.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helia": "^5.2.0",
+    "multer": "^1.4.5-lts.1",
+    "request-ip": "^3.3.0"
+  }
+}

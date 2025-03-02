@@ -1,0 +1,44 @@
+* {
+  font-family: "Source Code Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #212121;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.content {
+  max-width: 800px;
+  margin: 3rem auto; 
+  padding: 2rem;
+  border: 0.09rem solid #333333;
+  border-radius: 0.4rem;
+}
+
+.content p {
+  color: white; 
+  font-size: 0.9rem;
+}

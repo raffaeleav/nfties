@@ -1,0 +1,48 @@
+.home {
+    max-width: 50rem;
+    margin: 3rem auto;
+}
+
+.home-title {
+    color: white;
+    margin: 3rem auto; 
+    padding: 1rem;
+    border: 0.09rem solid #333333;
+    border-radius: 0.4rem;
+}
+
+.home-title .subtitle{
+    font-size: 0.9rem;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 50rem;
+    width: 100%;
+}
+
+.home-image {
+    flex: 2;
+    max-height: 22rem;
+	object-fit: cover;
+    border: 0.09rem solid #333333;
+    border-radius: 0.4rem;
+}
+
+.home-image img {
+    padding: 1rem;
+    height: 18rem;
+    max-width: 100%;
+}
+
+.home-image-text {
+    flex: 1;
+    color: white;
+    font-size: 0.9rem;
+    padding: 2rem;
+    margin-left: 3rem;
+    border: 0.09rem solid #333333;
+    border-radius: 0.4rem;
+}

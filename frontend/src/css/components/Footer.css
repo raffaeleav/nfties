@@ -1,0 +1,38 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1b1b1b;
+    color: white;
+    padding: 1.25rem;
+    border-top: 0.09rem solid #333333;
+}
+  
+.footer-section {
+    width: 45%;
+    text-decoration: none;
+    background-color: #1b1b1b;
+}
+  
+.footer-section h3 {
+    color: darkgrey;
+    font-size: 0.8rem;
+    background-color: #1b1b1b;
+}
+  
+.footer-section ul {
+    background-color: #1b1b1b;
+    list-style-type: none;
+    padding: 0;
+}
+  
+.footer-section li {
+    background-color: #1b1b1b;
+    margin: 0.5rem 0;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.footer-section li:hover {
+    color: darkgrey;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "name": "nfties",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": {
+      "version": "5.0.0",
+      "resolved": "https://registry.npmjs.org/@nomicfoundation/hardhat-toolbox/-/hardhat-toolbox-5.0.0.tgz",
+      "overridden": false
+    },
+    "@openzeppelin/contracts": {
+      "version": "5.2.0",
+      "resolved": "https://registry.npmjs.org/@openzeppelin/contracts/-/contracts-5.2.0.tgz",
+      "overridden": false
+    },
+    "cors": {
+      "version": "2.8.5",
+      "resolved": "https://registry.npmjs.org/cors/-/cors-2.8.5.tgz",
+      "overridden": false
+    },
+    "express": {
+      "version": "4.21.2",
+      "resolved": "https://registry.npmjs.org/express/-/express-4.21.2.tgz",
+      "overridden": false
+    },
+    "hardhat": {
+      "version": "2.22.17",
+      "resolved": "https://registry.npmjs.org/hardhat/-/hardhat-2.22.17.tgz",
+      "overridden": false
+    }
+  }
+}

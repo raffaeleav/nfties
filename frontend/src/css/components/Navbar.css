@@ -1,0 +1,111 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212121;
+    position: sticky;
+    top: 0;
+    border-bottom: 0.09rem solid #333333;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 1rem;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 0 0.5rem; 
+    border-radius: 0.4rem;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.authenticate {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.logo {
+    width: 5rem;
+    height: auto;
+    margin-left: 2rem;
+}
+
+.search-bar {
+    border: 0.09rem solid #333333;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    caret-color: white;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    color: white;
+}
+
+.search-button {
+    border: none;
+    background-color: none;
+    color: black;
+}
+
+.auth-button {
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 0 0.5rem; 
+    border-radius: 0.4rem;
+    font-size: 0.9rem;
+    border: none;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: darkgrey;
+}
+
+.search-button:hover {
+    cursor: pointer;
+}
+
+.search-bar:focus-within {
+    border-color: #ffffff;
+}
+
+.search-input::placeholder {
+    color: white; 
+}
+
+.search-input:hover::placeholder {
+    color: darkgrey;
+}
+
+.search-input:focus::placeholder {
+    color: transparent;
+}
+
+.auth-button:hover {
+    cursor: pointer;
+    background-color: darkgrey;
+}

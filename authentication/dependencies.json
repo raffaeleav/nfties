@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "name": "authentication",
+  "dependencies": {
+    "express-rate-limit": {
+      "version": "7.5.0",
+      "resolved": "https://registry.npmjs.org/express-rate-limit/-/express-rate-limit-7.5.0.tgz",
+      "overridden": false
+    },
+    "express": {
+      "version": "4.21.2",
+      "resolved": "https://registry.npmjs.org/express/-/express-4.21.2.tgz",
+      "overridden": false
+    },
+    "fs": {
+      "version": "0.0.1-security",
+      "resolved": "https://registry.npmjs.org/fs/-/fs-0.0.1-security.tgz",
+      "overridden": false
+    },
+    "jsonwebtoken": {
+      "version": "9.0.2",
+      "resolved": "https://registry.npmjs.org/jsonwebtoken/-/jsonwebtoken-9.0.2.tgz",
+      "overridden": false
+    },
+    "request-ip": {
+      "version": "3.3.0",
+      "resolved": "https://registry.npmjs.org/request-ip/-/request-ip-3.3.0.tgz",
+      "overridden": false
+    },
+    "snarkjs": {
+      "version": "0.7.5",
+      "resolved": "https://registry.npmjs.org/snarkjs/-/snarkjs-0.7.5.tgz",
+      "overridden": false
+    },
+    "uuid": {
+      "version": "11.1.0",
+      "resolved": "https://registry.npmjs.org/uuid/-/uuid-11.1.0.tgz",
+      "overridden": false
+    }
+  }
+}

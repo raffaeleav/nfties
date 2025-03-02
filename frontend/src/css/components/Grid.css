@@ -1,0 +1,72 @@
+.grid-section {
+	margin: 3rem 3rem;
+	display: grid; 
+	grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    justify-items: left;
+}
+
+.nft-card {
+	padding: 1.5rem;
+	border: 0.09rem solid #333333;
+	border-radius: 0.4rem;
+}
+
+.nft-image {
+	width: 100%;
+	height: 12rem; 
+	object-fit: cover;
+}
+
+.nft-info {
+	color: white;
+	padding: 0;
+	text-align: center;
+}
+
+.nft-info h3 {
+	margin: 1rem;
+	font-size: 0.9rem;
+}
+
+.nft-info p {
+	margin: 0;
+	font-size: 0.8rem;
+}
+
+.buy-button {
+	color: black;
+	display: block;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 1rem auto; 
+	margin-bottom: 0;
+    font-size: 0.9rem;
+    border: none;
+	border-radius: 0.4rem;
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+
+.no-results-div {
+	max-width: 50rem;
+	padding: 1.5rem;
+	border: 0.09rem solid #333333;
+	border-radius: 0.4rem;
+	margin: 3rem auto; 
+}
+
+.no-results-image {
+	width: 14rem;
+	height: 100%; 
+	object-fit: cover;
+}
+
+.nft-card:hover {
+	transform: scale(1.03);
+	transition: 0.3s ease;
+}
+
+.buy-button:hover {
+    cursor: pointer;
+    background-color: darkgrey;
+}

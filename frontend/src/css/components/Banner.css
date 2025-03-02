@@ -1,0 +1,98 @@
+.cookie-consent-popup {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: black;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.cookie-consent-content p {
+    background-color: black;
+    font-size: 0.8rem;
+    color: white;
+    padding: 1rem;
+    margin: 0;
+}
+
+.cookie-buttons-wrapper {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.cookie-buttons-section {
+    background-color: black;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+}
+
+.cookie-consent-popup .cookie-buttons-title h3 {
+    background-color: black;
+    font-size: 0.8rem;
+    color: white !important;
+    margin-bottom: 0.9rem !important;
+    font-weight: bold !important;
+    color: #222;
+}
+
+.cookie-buttons {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+}
+
+.cookie-buttons button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: 0.3s;
+}
+
+.cookie-consent-content p a {
+    background-color: black;
+    color: #0000EE;
+    text-decoration: underline;
+}
+
+.cookie-buttons button[disabled] {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.cookie-buttons button:not([disabled]) {
+    background: #007bff;
+    color: white;
+}
+
+.cookie-buttons button:not([disabled]):hover {
+    background: #0056b3;
+}
+
+.cookie-buttons button:last-child:not([disabled]) {
+    background: #dc3545;
+}
+
+.cookie-buttons button:last-child:not([disabled]):hover {
+    background: #b52b3a;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50%) translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+    }
+}

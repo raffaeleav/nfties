@@ -1,0 +1,101 @@
+{
+  "version": "0.1.0",
+  "name": "frontend",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": {
+      "version": "6.7.2",
+      "resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-6.7.2.tgz",
+      "overridden": false
+    },
+    "@fortawesome/free-brands-svg-icons": {
+      "version": "6.7.2",
+      "resolved": "https://registry.npmjs.org/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-6.7.2.tgz",
+      "overridden": false
+    },
+    "@fortawesome/free-regular-svg-icons": {
+      "version": "6.7.2",
+      "resolved": "https://registry.npmjs.org/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-6.7.2.tgz",
+      "overridden": false
+    },
+    "@fortawesome/free-solid-svg-icons": {
+      "version": "6.7.2",
+      "resolved": "https://registry.npmjs.org/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-6.7.2.tgz",
+      "overridden": false
+    },
+    "@fortawesome/react-fontawesome": {
+      "version": "0.2.2",
+      "resolved": "https://registry.npmjs.org/@fortawesome/react-fontawesome/-/react-fontawesome-0.2.2.tgz",
+      "overridden": false
+    },
+    "@reduxjs/toolkit": {
+      "version": "2.5.0",
+      "resolved": "https://registry.npmjs.org/@reduxjs/toolkit/-/toolkit-2.5.0.tgz",
+      "overridden": false
+    },
+    "cra-template": {
+      "version": "1.2.0",
+      "resolved": "https://registry.npmjs.org/cra-template/-/cra-template-1.2.0.tgz",
+      "overridden": false
+    },
+    "csv-parser": {
+      "version": "3.2.0",
+      "resolved": "https://registry.npmjs.org/csv-parser/-/csv-parser-3.2.0.tgz",
+      "overridden": false
+    },
+    "js-cookie": {
+      "version": "3.0.5",
+      "resolved": "https://registry.npmjs.org/js-cookie/-/js-cookie-3.0.5.tgz",
+      "overridden": false
+    },
+    "jsonwebtoken": {
+      "version": "9.0.2",
+      "resolved": "https://registry.npmjs.org/jsonwebtoken/-/jsonwebtoken-9.0.2.tgz",
+      "overridden": false
+    },
+    "papaparse": {
+      "version": "5.5.2",
+      "resolved": "https://registry.npmjs.org/papaparse/-/papaparse-5.5.2.tgz",
+      "overridden": false
+    },
+    "react-dom": {
+      "version": "19.0.0",
+      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-19.0.0.tgz",
+      "overridden": false
+    },
+    "react-redux": {
+      "version": "9.2.0",
+      "resolved": "https://registry.npmjs.org/react-redux/-/react-redux-9.2.0.tgz",
+      "overridden": false
+    },
+    "react-router-dom": {
+      "version": "7.1.1",
+      "resolved": "https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.1.1.tgz",
+      "overridden": false
+    },
+    "react-router": {
+      "version": "7.1.1",
+      "resolved": "https://registry.npmjs.org/react-router/-/react-router-7.1.1.tgz",
+      "overridden": false
+    },
+    "react-scripts": {
+      "version": "5.0.1",
+      "resolved": "https://registry.npmjs.org/react-scripts/-/react-scripts-5.0.1.tgz",
+      "overridden": false
+    },
+    "react": {
+      "version": "19.0.0",
+      "resolved": "https://registry.npmjs.org/react/-/react-19.0.0.tgz",
+      "overridden": false
+    },
+    "redux": {
+      "version": "5.0.1",
+      "resolved": "https://registry.npmjs.org/redux/-/redux-5.0.1.tgz",
+      "overridden": false
+    },
+    "web-vitals": {
+      "version": "4.2.4",
+      "resolved": "https://registry.npmjs.org/web-vitals/-/web-vitals-4.2.4.tgz",
+      "overridden": false
+    }
+  }
+}
