@@ -45,14 +45,14 @@
 ## Project structure
 ```
 nfties/
-│── authentication/       # Authentication express endpoint
+│── authentication/        # Authentication express endpoint
 │   ├── certificates/
 │	  ├── scripts/			
 │   └── src/             	
 │
-│── contracts/            # Solidity smart contracts
+│── contracts/             # Solidity smart contracts
 │
-│── frontend/             # React frontend
+│── frontend/              # React frontend
 │   ├── certificates/
 │	  ├── public/
 │  	├── scripts/			
