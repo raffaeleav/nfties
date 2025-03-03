@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="![banner](https://github.com/user-attachments/assets/c1275780-27a0-4c19-9e65-58f3b9315289)" width="512" heigth="120">
+  <img src="https://github.com/user-attachments/assets/c1275780-27a0-4c19-9e65-58f3b9315289" width="512" heigth="120">
 </p>
 
 
@@ -43,6 +43,7 @@
 - Javascript dependencies are listed in each of the project components
 
 ## Project structure
+```
 nfties/
 │── authentication/         # Authentication express endpoint
 │   ├── certificates/
@@ -74,7 +75,8 @@ nfties/
 │── dependencies.json
 │── hardhat.config.js              
 │── package-lock.json                
-└── package.json             
+└── package.json
+```          
 
 
 ## How to replicate
