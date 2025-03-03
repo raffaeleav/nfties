@@ -44,25 +44,36 @@ Nfties was developed to gain practical experience in building a decentralized ap
 ## Project structure
 ```
 nfties/
-│── authentication/        # Authentication express endpoint          	
+│── authentication/        # Authentication express endpoint
+│   ├── certificates/
+│   ├── scripts/			
+│   └── src/       	
 │
 │── contracts/             # Solidity smart contracts
 │
 │── frontend/              # React frontend
-│
-│── ignition/              # Hardhat ignition modules	
+│   ├── certificates/      
+│   ├── scripts/			
+│   └── src/               
+│       ├── abis/          # Smart contract abis
+│       ├── components/    # React components
+│       ├── css/
+│       └── redux/         # Redux actions, reducers and store
+│ 
+│── ignition/              # Hardhat ignition modules
+│   └── modules/     
 │
 │── ipfs/                  # Ipfs metadata / images storage endpoint
+│   ├── certificates/
+│   ├── scripts/			
+│   └── src/ 
 │
-│── scripts/               # Compile / deployment scripts for contracts 
+│── scripts/               # Compiling / deployment scripts for contracts 
 │
 │── test/                  # Unit testing with Mocha 
 │
 │── .gitignore
-│── README.md               
-│── dependencies.json
-│── hardhat.config.js              
-│── package-lock.json                
+│── ...         
 └── package.json
 ```          
 
