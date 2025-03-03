@@ -24,17 +24,11 @@ Nfties was developed to gain practical experience in building a decentralized ap
 </p>
 
 
-## Preview
-<p>
-  <img src="" width="400" heigth="400">
-</p>
-
-
 ## Features
-1) Mint NFTs
-2) Buy NFTs
-3) Sell NFTs
-4) View NFTs
+1) Mint new NFTs (Admin)
+2) Purchase NFTs
+3) Sell your NFTs
+4) View your NFTs
 
 
 ## Requirements 
