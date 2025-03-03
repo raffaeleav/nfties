@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="" width="512" heigth="120">
+  <img src="![banner](https://github.com/user-attachments/assets/c1275780-27a0-4c19-9e65-58f3b9315289)" width="512" heigth="120">
 </p>
 
 
@@ -13,12 +13,22 @@
 - [Features](#Features)
 - [Results](#Results)
 - [Requirements](#Requirements)
+- [Project structure](#Project-structure)
 - [How to replicate](#How-to-replicate)
 - [Built with](#Built-with)
 
 
 ## Overview 
-  ...
+<p align="center">
+  Nfties was developed with the goal of gaining practical experience in implementing a Dapp, with a focus on blockchain security.
+  The platform allows users to explore a wide range of NFTs and purchase or sell them. The Dapp admin can mint NFTs through a dedicated dashboard. 
+</p>
+
+
+## Preview
+<p>
+  <img src="" width="400" heigth="400">
+</p>
 
 
 ## Features
@@ -31,6 +41,40 @@
 ## Requirements 
 - [mkcert](https://github.com/awsaf49/artifact)
 - Javascript dependencies are listed in each of the project components
+
+## Project structure
+nfties/
+│── authentication/         # Authentication express endpoint
+│   ├── certificates/
+│	  ├── scripts/			
+│   └── src/             	
+│
+│── contracts/        		  # Solidity smart contracts
+│
+│── frontend/               # React frontend
+│   ├── certificates/
+│	  ├── public/
+│  	├── scripts/			
+│   └── src/
+│
+│── ignition/               # Hardhat ignition modules	
+│   └── modules/     
+│
+│── ipfs/                   # Ipfs metadata / images storage endpoint
+│   ├── certificates/
+│	  ├── scripts/			
+│   └── src/
+│
+│── scripts/                # Compile / deployment scripts for contracts 
+│
+│── test/                	  # Unit testing with Mocha 
+│
+│── .gitignore
+│── README.md               
+│── dependencies.json
+│── hardhat.config.js              
+│── package-lock.json                
+└── package.json             
 
 
 ## How to replicate
@@ -67,4 +111,9 @@ npm start
 
 
 ## Built with
-- ...
+- [Hardhat](https://hardhat.org/hardhat-network/docs/overview)
+- [Solidity](https://soliditylang.org)
+- [Helia](https://helia.io)
+- [React](https://it.legacy.reactjs.org)
+- [Redux](https://redux.js.org)
+- [Express](https://expressjs.com)
