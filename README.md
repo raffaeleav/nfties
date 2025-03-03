@@ -20,8 +20,7 @@
 
 ## Overview 
 <p>
-  Nfties was developed with the goal of gaining practical experience in implementing a Dapp, with a focus on blockchain security.
-  The platform allows users to explore a wide range of NFTs and purchase or sell them. The Dapp admin can mint NFTs through a dedicated dashboard. 
+Nfties was developed to gain practical experience in building a decentralized application (Dapp), with a strong focus on Ethereum and blockchain security. The platform enables users to explore, buy, and sell a wide range of NFTs. Additionally, the Dapp admin has access to a dedicated dashboard for minting new NFTs.
 </p>
 
 
@@ -102,9 +101,9 @@ npm start
 
 
 ## Built with
-- [Hardhat](https://hardhat.org/hardhat-network/docs/overview)
-- [Solidity](https://soliditylang.org)
-- [Helia](https://helia.io)
-- [React](https://it.legacy.reactjs.org)
-- [Redux](https://redux.js.org)
-- [Express](https://expressjs.com)
+- [Hardhat](https://hardhat.org/hardhat-network/docs/overview) - used for compiling, deploying, testing, and debugging smart contracts
+- [Solidity](https://soliditylang.org) - used for Ethereum smart contracts
+- [Helia](https://helia.io) - used for decentralized storage of NFT images and metadata
+- [React](https://it.legacy.reactjs.org) - used for building the frontend 
+- [Redux](https://redux.js.org) - used for global state management in the frontend
+- [Express](https://expressjs.com) - used for building authentication and ipfs APIs
