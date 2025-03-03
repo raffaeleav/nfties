@@ -19,7 +19,7 @@
 
 
 ## Overview 
-<p align="center">
+<p>
   Nfties was developed with the goal of gaining practical experience in implementing a Dapp, with a focus on blockchain security.
   The platform allows users to explore a wide range of NFTs and purchase or sell them. The Dapp admin can mint NFTs through a dedicated dashboard. 
 </p>
