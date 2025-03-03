@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  A NFT marketplace developed as a project for the Sicurezza dei Dati (Data Security) course, part of the Computer Science Master's Degree program at the University of Salerno
+  An NFT marketplace developed as a project for the Sicurezza dei Dati (Data Security) course, part of the Computer Science Master's Degree program at the University of Salerno
 </p>
 
 
