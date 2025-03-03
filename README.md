@@ -45,26 +45,15 @@
 ## Project structure
 ```
 nfties/
-│── authentication/        # Authentication express endpoint
-│   ├── certificates/
-│	  ├── scripts/			
-│   └── src/             	
+│── authentication/        # Authentication express endpoint          	
 │
 │── contracts/             # Solidity smart contracts
 │
 │── frontend/              # React frontend
-│   ├── certificates/
-│	  ├── public/
-│  	├── scripts/			
-│   └── src/
 │
 │── ignition/              # Hardhat ignition modules	
-│   └── modules/     
 │
 │── ipfs/                  # Ipfs metadata / images storage endpoint
-│   ├── certificates/
-│	  ├── scripts/			
-│   └── src/
 │
 │── scripts/               # Compile / deployment scripts for contracts 
 │
