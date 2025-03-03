@@ -45,30 +45,30 @@
 ## Project structure
 ```
 nfties/
-│── authentication/         # Authentication express endpoint
+│── authentication/       # Authentication express endpoint
 │   ├── certificates/
 │	  ├── scripts/			
 │   └── src/             	
 │
-│── contracts/        		  # Solidity smart contracts
+│── contracts/            # Solidity smart contracts
 │
-│── frontend/               # React frontend
+│── frontend/             # React frontend
 │   ├── certificates/
 │	  ├── public/
 │  	├── scripts/			
 │   └── src/
 │
-│── ignition/               # Hardhat ignition modules	
+│── ignition/              # Hardhat ignition modules	
 │   └── modules/     
 │
-│── ipfs/                   # Ipfs metadata / images storage endpoint
+│── ipfs/                  # Ipfs metadata / images storage endpoint
 │   ├── certificates/
 │	  ├── scripts/			
 │   └── src/
 │
-│── scripts/                # Compile / deployment scripts for contracts 
+│── scripts/               # Compile / deployment scripts for contracts 
 │
-│── test/                	  # Unit testing with Mocha 
+│── test/                  # Unit testing with Mocha 
 │
 │── .gitignore
 │── README.md               
