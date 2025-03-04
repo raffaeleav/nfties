@@ -24,7 +24,7 @@ Nfties was developed to gain practical experience in building a decentralized ap
 </p>
 
 
-#Preview
+## Preview
 <p>
   <img src="https://github.com/user-attachments/assets/e67ef81f-f3eb-4759-966b-53253bbc6e73" width="400" heigth="400">
 </p>
