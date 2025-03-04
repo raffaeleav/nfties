@@ -10,8 +10,8 @@
 
 ## Table of Contents
 - [Overview](#Overview)
+- [Preview](#Preview)
 - [Features](#Features)
-- [Results](#Results)
 - [Requirements](#Requirements)
 - [Project structure](#Project-structure)
 - [How to replicate](#How-to-replicate)
@@ -22,6 +22,13 @@
 <p>
 Nfties was developed to gain practical experience in building a decentralized application (Dapp), with a strong focus on Ethereum and blockchain security. The platform enables users to explore, buy, and sell a wide range of NFTs. Additionally, the Dapp admin has access to a dedicated dashboard for minting new NFTs.
 </p>
+
+
+#Preview
+<p>
+  <img src="https://github.com/user-attachments/assets/e67ef81f-f3eb-4759-966b-53253bbc6e73" width="400" heigth="400">
+</p>
+![preview-ezgif com-video-to-gif-converter]()
 
 
 ## Features
