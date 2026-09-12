@@ -81,7 +81,7 @@ nfties/
 ## How to replicate
 1) Clone the repository
 ```bash
-git clone https://github.com/raffaeleav/alarmino.git
+git clone https://github.com/raffaeleav/nfties.git
 ```
 2) Start the hardhat node
 ```bash
