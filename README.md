@@ -15,7 +15,6 @@
 - [Requirements](#Requirements)
 - [Project structure](#Project-structure)
 - [How to replicate](#How-to-replicate)
-- [Built with](#Built-with)
 
 
 ## Overview 
@@ -112,12 +111,3 @@ cd nfties/frontend
 npm install
 npm start
 ```
-
-
-## Built with
-- [Hardhat](https://hardhat.org/hardhat-network/docs/overview) - used for compiling, deploying, testing, and debugging smart contracts
-- [Solidity](https://soliditylang.org) - used for Ethereum smart contracts
-- [Helia](https://helia.io) - used for decentralized storage of NFT images and metadata
-- [React](https://it.legacy.reactjs.org) - used for building the frontend 
-- [Redux](https://redux.js.org) - used for global state management in the frontend
-- [Express](https://expressjs.com) - used for building authentication and ipfs APIs
